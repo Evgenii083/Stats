@@ -9,7 +9,7 @@ public class StatsService {
         return sum;
     }
 
-    public int Average(int[] Sales) {
+    public int average(int[] Sales) {
         int sum = 0;
         if (Sales.length > 0) ;
         {
@@ -49,7 +49,7 @@ public class StatsService {
 
     public int MoreThanAverage(int[] Sales) {
         int MoreThanAverage = 0;
-        int p = Average(Sales);
+        int p = average(Sales);
 
         for (int i = 0; i < Sales.length; i++) {
             if (Sales[i] > p) {
@@ -60,7 +60,7 @@ public class StatsService {
     }
 
     public int LessThanAverage(int[] Sales) {
-        int p = Average(Sales);
+        int p = average(Sales);
         int LessThanAverage = 0;
         for (int i = 0; i < Sales.length; i++) {
             if (Sales[i] < p) {

@@ -8,7 +8,7 @@ public class Main {
         StatsService service = new StatsService();
 
         int sum = service.SalesSum(Sales);
-        int average = service.Average(Sales);
+        int average = service.average(Sales);
         // int MinMonth = service.getMinMonth(Sales);
         int WorstMonth = service.getWorstMonth(Sales);
         // int invert = service.invert(Sales);
